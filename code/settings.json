@@ -1,0 +1,154 @@
+{
+    //========================================================================
+    // エディター設定
+    //========================================================================
+    // 全般
+    "editor.fontSize"               : 14,
+    "editor.renderWhitespace"       : "all",
+    "editor.renderLineHighlight"    : "all",    // 選択行の行番号をハイライトする
+    "editor.cursorBlinking"         : "smooth", // カーソルが滑らかに点滅するように
+    "editor.renderControlCharacters": true,     // 制御文字を表示する "editor.suggestSelection": "first", // サジェスト一覧の初期表示項目設定 "breadcrumbs.enabled": true, // ファイルのパンくずリストを表示する
+    "editor.minimap.enabled"        : false,    //minimap削除
+
+    // ワークベンチ
+    "workbench.colorTheme"           : "One Dark Pro",
+    "workbench.startupEditor"        : "none",
+    "workbench.panel.defaultLocation": "right", // ファイルの末尾を改行で終わらせる
+    "workbench.iconTheme"            : "vscode-icons",
+    "workbench.colorCustomizations"  : {
+        "terminal.background": "#1F2022",
+        "terminal.foreground": "#A3A3A3",
+        "terminalCursor.background": "#A3A3A3",
+        "terminalCursor.foreground": "#A3A3A3",
+        "terminal.ansiBlack": "#1F2022",
+        "terminal.ansiBlue": "#4F97D7",
+        "terminal.ansiBrightBlack": "#585858",
+        "terminal.ansiBrightBlue": "#4F97D7",
+        "terminal.ansiBrightCyan": "#2D9574",
+        "terminal.ansiBrightGreen": "#67B11D",
+        "terminal.ansiBrightMagenta": "#A31DB1",
+        "terminal.ansiBrightRed": "#F2241F",
+        "terminal.ansiBrightWhite": "#F8F8F8",
+        "terminal.ansiBrightYellow": "#B1951D",
+        "terminal.ansiCyan": "#2D9574",
+        "terminal.ansiGreen": "#67B11D",
+        "terminal.ansiMagenta": "#A31DB1",
+        "terminal.ansiRed": "#F2241F",
+        "terminal.ansiWhite": "#A3A3A3",
+        "terminal.ansiYellow": "#B1951D",
+        "statusBar.background": "#B4BE82",
+        "statusBar.noFolderBackground": "#B4BE82",
+        "statusBar.debuggingBackground": "#B4BE82",
+        "statusBar.foreground": "#161821",
+        "statusBar.debuggingForeground": "#161821"
+    },
+
+    // エメット
+    "emmet.includeLanguages" : {
+        "smarty" : "html",
+        "vue"    : "html"
+    },
+
+    // セキュリティ関連
+    "security.workspace.trust.untrustedFiles"    : "open",
+    "security.workspace.trust.emptyWindow"       : false,
+    "security.workspace.trust.enabled"           : false,
+
+    // ターミナル関連
+    "terminal.integrated.copyOnSelection"        : true,
+    "terminal.integrated.fontSize"               : 14,
+    
+    // git関連
+    "git.openRepositoryInParentFolders"          : "always",
+    "git.enableSmartCommit"                      : true,
+
+    //========================================================================
+    // VIM設定
+    //========================================================================
+    // 全般
+    "vim.hlsearch"                               : true,
+    "vim.useSystemClipboard"                     : true,
+    "vim.visualstar"                             : true,
+    "vim.highlightedyank.enable"                 : true, //yankした箇所をハイライト表示にする
+    "vim.highlightedyank.color"                  : "rgba(0, 240, 170, 0.5)",    //yankした時の色
+    "vim.highlightedyank.duration"               : 300,                      //yankした時の色の表示時間
+
+    // ステータスバー関連
+    "vim.statusBarColorControl": true,
+    "vim.statusBarColors.normal": ["#161821", "#818596"],
+    "vim.statusBarColors.insert": ["#84A0C6", "#161821"],
+    "vim.statusBarColors.visual": ["#B4BE82", "#161821"],
+    "vim.statusBarColors.visualline": ["#B4BE82", "#161821"],
+    "vim.statusBarColors.visualblock": ["#B4BE82", "#161821"],
+    "vim.statusBarColors.replace": ["#E2A478", "#161821"],
+    "vim.statusBarColors.commandlineinprogress": ["#e76f77", "#161821"],
+    "vim.statusBarColors.searchinprogressmode": ["#818596", "#161821"],
+    "vim.statusBarColors.easymotionmode": ["#818596", "#161821"],
+    "vim.statusBarColors.easymotioninputmode": ["#818596", "#161821"],
+    "vim.statusBarColors.surroundinputmode": ["#818596", "#161821"],
+
+    // プラグイン関連
+    "vim.easymotion"                             : true, //easy motionを有効化
+    "vim.surround"                               : true, //surroundを有効にする
+    
+    // easymotion関連
+    "vim.easymotionMarkerForegroundColorOneChar" : "rgba(0,240,170,0.9)", //一文字目の色
+    "vim.easymotionMarkerForegroundColorTwoChar" : "rgba(0,240,170,0.9)", //二文字目の色
+    "vim.easymotionMarkerBackgroundColor"        : "", //背景色
+    "vim.easymotionMarkerWidthPerChar"           : 19, //各文字に割り当てられている幅
+    "vim.easymotionMarkerHeight"                 : 0, //マーカーの高さ
+    "vim.easymotionMarkerFontFamily"             : "Cica", //フォント
+    "vim.easymotionMarkerFontSize"               : "12.5", //フォントサイズ
+    "vim.easymotionMarkerFontWeight"             : "normal", //フォントの太さ
+    "vim.easymotionKeys"                         : "asdfhjklwqeruioopghty;", //マーカーに使用される文字列
+    "vim.easymotionMarkerYOffset"                : 13.5, //高さのずれ修正 
+
+    // ノーマルモード キーバインド
+    "vim.normalModeKeyBindingsNonRecursive" : 
+    [
+        {
+            "before": ["f"],
+            "after" : ["leader", "leader", "leader", "b", "d", "w"]
+        },
+        {
+            "before": ["J"],
+            "after" : ["j","j","j","j","j","j","j","j","j","j",]
+        },
+        {
+            "before": ["K"],
+            "after" : ["k","k","k","k","k","k","k","k","k","k",]
+        },
+        {
+            "before": [","],
+            "after" : ["g","g","V","G"]
+        },
+        {
+            "before": ["x"],
+            "after" : ["\"", "_", "x"]
+        },
+        {
+            "before": ["s"],
+            "after" : ["\"", "_", "s"]
+        }
+    ]
+    ,
+
+    // インサートモード キーバインド
+    "vim.insertModeKeyBindings" :
+    [
+        {
+            "before": ["j", "j"],
+            "after" : ["<Esc>"]
+        }
+    ]
+    ,
+
+    //========================================================================
+    //その他
+    //========================================================================
+    "files.insertFinalNewline" : true,
+    "[blade]"                  : {},
+    "window.titleBarStyle"     : "custom",
+    
+}
+
