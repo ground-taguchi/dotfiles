@@ -1,0 +1,60 @@
+Script started on Tue Jun 25 13:05:34 2024
+[0m[49m[39m[27m[24m[K
+
+[2A7[0m[49m[39m[38:5:244m╭─[0m[38:5:244m[44m[38:5:254m [1m[38:5:254m[44m[38:5:255m~[0m[38:5:255m[44m[44m[38:5:254m/[1m[38:5:254m[44m[38:5:255mdotfiles[0m[38:5:255m[44m[44m[38:5:254m[0m[38:5:254m[44m[44m[38:5:254m [0m[38:5:254m[44m[49m[34m[0m[34m[49m[39m                                                                                                                                                   [0m[49m[30m[0m[30m[40m[32m [0m[32m[40m[40m[32m✔[0m[32m[40m[40m[32m [0m[32m[40m[40m[32m[37m[0m[37m[40m[47m[30m 13:05:34[0m[30m[47m[47m[30m[0m[30m[47m[47m[30m [0m[30m[47m[49m[39m
+[38:5:244m╰─[0m[38:5:244m[49m[39m[0m[49m[39m [0m[49m[39m[?2004h[?25l8[0m[49m[39m[27m[24m[J
+[[33mWARNING[39m]: Console output during zsh initialization detected.
+
+When using Powerlevel10k with instant prompt, console output during zsh
+initialization may indicate issues.
+
+You can:
+
+  - [1mRecommended[0m: Change [1m~/.zshrc[0m so that it does not perform console I/O
+    after the instant prompt preamble. See the link below for details.
+
+    * You [1mwill not[0m see this error message again.
+    * Zsh will start [1mquickly[0m and prompt will update [1msmoothly[0m.
+
+  - Suppress this warning either by running [1mp10k configure[0m or by manually
+    defining the following parameter:
+
+      [33mtypeset[39m -g POWERLEVEL9K_INSTANT_PROMPT=quiet
+
+    * You [1mwill not[0m see this error message again.
+    * Zsh will start [1mquickly[0m but prompt will [1mjump down[0m after initialization.
+
+  - Disable instant prompt either by running [1mp10k configure[0m or by manually
+    defining the following parameter:
+
+      [33mtypeset[39m -g POWERLEVEL9K_INSTANT_PROMPT=off
+
+    * You [1mwill not[0m see this error message again.
+    * Zsh will start [1mslowly[0m.
+
+  - Do nothing.
+
+    * You [1mwill[0m see this error message every time you start zsh.
+    * Zsh will start [1mquickly[0m but prompt will [1mjump down[0m after initialization.
+
+For details, see:
+]8;;https://github.com/romkatv/powerlevel10k#instant-prompthttps://github.com/romkatv/powerlevel10k#instant-prompt]8;;
+
+[33m-- console output produced during zsh initialization follows --[39m
+
+/Users/grounds/.zshrc:source:8: no such file or directory: /Users/grounds/powerlevel10k/powerlevel10k.zsh-theme
+[0m[38:5:254m[49m[39m[27m[24m[1m[7m%[27m[1m[0m                                                                                                                                                                                 [0m[49m[39m[27m[24m[K[0m[27m[24m[J[0m[49m[39m
+[A[38:5:244m╭─[0m[38:5:244m[44m[38:5:254m [1m[38:5:254m[44m[38:5:255m~[0m[38:5:255m[44m[44m[38:5:254m/[1m[38:5:254m[44m[38:5:255mdotfiles[0m[38:5:255m[44m[44m[38:5:254m[0m[38:5:254m[44m[44m[38:5:254m [0m[38:5:254m[44m[42m[34m[0m[34m[42m[42m[30m [30mmain [30m?1[0m[30m[42m[42m[30m [0m[30m[42m[49m[32m[0m[32m[49m[39m                                                                                                                                         [0m[49m[30m[0m[30m[40m[32m [0m[32m[40m[40m[32m✔[0m[32m[40m[40m[32m [0m[32m[40m[40m[32m[37m[0m[37m[40m[47m[30m 13:05:34[0m[30m[47m[47m[30m[0m[30m[47m[47m[30m [0m[30m[47m[49m[39m
+[38:5:244m╰─[0m[38:5:244m[49m[39m[0m[49m[39m [0m[49m[39m[K[?25h[?2004hc[?2004l
+[H[2J[1m[7m%[27m[1m[0m                                                                                                                                                                                  [0m[27m[24m[J[0m[49m[39m
+[A[38:5:244m╭─[0m[38:5:244m[44m[38:5:254m [1m[38:5:254m[44m[38:5:255m~[0m[38:5:255m[44m[44m[38:5:254m/[1m[38:5:254m[44m[38:5:255mdotfiles[0m[38:5:255m[44m[44m[38:5:254m[0m[38:5:254m[44m[44m[38:5:254m [0m[38:5:254m[44m[42m[34m[0m[34m[42m[42m[30m [30mmain [30m?1[0m[30m[42m[42m[30m [0m[30m[42m[49m[32m[0m[32m[49m[39m                                                                                                                                         [0m[49m[30m[0m[30m[40m[32m [0m[32m[40m[40m[32m✔[0m[32m[40m[40m[32m [0m[32m[40m[40m[32m[37m[0m[37m[40m[47m[30m 13:05:36[0m[30m[47m[47m[30m[0m[30m[47m[47m[30m [0m[30m[47m[49m[39m
+[38:5:244m╰─[0m[38:5:244m[49m[39m[0m[49m[39m [0m[49m[39m[K[?2004hc sscri  s  sscript/lis/link.sh[1m [0m[0m [?2004l
+ln: /Users/grounds/.: Operation not permitted
+ln: /Users/grounds/..: Operation not permitted
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  [0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m
+[A[38:5:244m╭─[0m[38:5:244m[44m[38:5:254m [1m[38:5:254m[44m[38:5:255m~[0m[38:5:255m[44m[44m[38:5:254m/[1m[38:5:254m[44m[38:5:255mdotfiles[0m[38:5:255m[44m[44m[38:5:254m[0m[38:5:254m[44m[44m[38:5:254m [0m[38:5:254m[44m[42m[34m[0m[34m[42m[42m[30m [30mmain [30m?1[0m[30m[42m[42m[30m [0m[30m[42m[49m[32m[0m[32m[49m[39m                                                                                                                                         [0m[49m[30m[0m[30m[40m[32m [0m[32m[40m[40m[32m✔[0m[32m[40m[40m[32m [0m[32m[40m[40m[32m[37m[0m[37m[40m[47m[30m 13:05:46[0m[30m[47m[47m[30m[0m[30m[47m[47m[30m [0m[30m[47m[49m[39m
+[38:5:244m╰─[0m[38:5:244m[49m[39m[0m[49m[39m [0m[49m[39m[K[?2004hc[?2004l
+[H[2J[1m[7m%[27m[1m[0m                                                                                                                                                                                  [0m[27m[24m[J[0m[49m[39m
+[A[38:5:244m╭─[0m[38:5:244m[44m[38:5:254m [1m[38:5:254m[44m[38:5:255m~[0m[38:5:255m[44m[44m[38:5:254m/[1m[38:5:254m[44m[38:5:255mdotfiles[0m[38:5:255m[44m[44m[38:5:254m[0m[38:5:254m[44m[44m[38:5:254m [0m[38:5:254m[44m[43m[34m[0m[34m[43m[43m[30m [30mmain [30m!1 [30m?1[0m[30m[43m[43m[30m [0m[30m[43m[49m[33m[0m[33m[49m[39m                                                                                                                                      [0m[49m[30m[0m[30m[40m[32m [0m[32m[40m[40m[32m✔[0m[32m[40m[40m[32m [0m[32m[40m[40m[32m[37m[0m[37m[40m[47m[30m 13:15:33[0m[30m[47m[47m[30m[0m[30m[47m[47m[30m [0m[30m[47m[49m[39m
+[38:5:244m╰─[0m[38:5:244m[49m[39m[0m[49m[39m [0m[49m[39m[K[?2004h
