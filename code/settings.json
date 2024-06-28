@@ -112,11 +112,11 @@
         },
         {
             "before": ["J"],
-            "after" : ["j","j","j","j","j","j","j","j","j","j",]
+            "after" : ["j","j","j","j","j","j","j","j","j","j"]
         },
         {
             "before": ["K"],
-            "after" : ["k","k","k","k","k","k","k","k","k","k",]
+            "after" : ["k","k","k","k","k","k","k","k","k","k"]
         },
         {
             "before": [","],
@@ -148,7 +148,7 @@
     //========================================================================
     "files.insertFinalNewline" : true,
     "[blade]"                  : {},
-    "window.titleBarStyle"     : "custom",
+    "window.titleBarStyle"     : "custom"
     
 }
 
