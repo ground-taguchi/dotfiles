@@ -16,6 +16,7 @@ map J 10j
 map K 10k
 map , ggVG
 inoremap <silent> jj <ESC>
+nnoremap x "_x
 
 """"""""""""""""""
 ""プラグイン関連""
