@@ -21,7 +21,7 @@
                         "description": "Change KANA to Option if not pressed alone",
                         "manipulators": [
                             {
-                                "description": " かな → RIGHT COMMAND ",
+                                "description": " かな → RIGHT SHIFT ",
                                 "from": {
                                     "key_code": "japanese_kana",
                                     "modifiers": {
@@ -32,7 +32,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "right_command"
+                                        "key_code": "right_shift"
                                     }
                                 ],
                                 "to_if_alone": [
@@ -48,7 +48,7 @@
                         "description": "Change EISUU to Control if not pressed alone",
                         "manipulators": [
                             {
-                                "description": " 英数 → RIGHT COMMAND ",
+                                "description": " 英数 → RIGHT SHIFT ",
                                 "from": {
                                     "key_code": "japanese_eisuu",
                                     "modifiers": {
@@ -59,7 +59,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "right_command"
+                                        "key_code": "right_shift"
                                     }
                                 ],
                                 "to_if_alone": [
